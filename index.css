@@ -1,0 +1,94 @@
+
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    border: 1px solid black; 
+
+     } 
+
+.container {
+    background: white;
+    max-width: 40%; /*container will only take up 40% of the current window width*/
+    margin: auto; /*stay centered */
+    border: 1px solid black;   
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+header { /*not seeing the effect of this*/
+     display: flex;
+
+}
+
+.header-top { /*logo and per's photo*/
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.user-avatar { /*Per's image*/
+    width: 45px; /*made per's image small*/
+    border-radius: 40px;
+  
+}
+
+.avatar { /*painter little photo*/ 
+    width: 32px; /*i made this smaller*/
+    border-radius: 40px;
+}
+
+.logo { /*oldgram logo*/
+    width: 100px;
+    margin-left: 20px;
+}
+
+.post .header { /*pic #2 photo*/
+    display: flex;
+    /* justify-content: start; */
+    border-top: 1px solid #C6C6C6; 
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.post .avatar { /* pic #2 photo*/
+  width: 35px;
+  border: 0px solid black;
+  margin-left: 0px;
+
+
+}
+
+.post .img { /*#3 pic made images bigger*/
+    width: 100%;
+    border: 1px solid black;
+}
+
+.heart {
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.comment {
+    width: 30px;
+}
+
+.dm {
+    width: 30px;
+}
+
+.name, .location {
+    padding-top: 20px;
+
+}
+
+h3 {
+    margin-left: 15px;;
+}
